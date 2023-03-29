@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" text="Bienvenue sur le jeu du pendu" textAlignment="CENTER">
+         <VBox.margin>
+            <Insets left="140.0" top="50.0" />
+         </VBox.margin>
+         <font>
+            <Font name="Monaco" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images.png" />
+         </image>
+         <VBox.margin>
+            <Insets left="200.0" top="30.0" />
+         </VBox.margin>
+      </ImageView>
+      <Label text="Rentrer votre pseudo">
+         <VBox.margin>
+            <Insets left="230.0" />
+         </VBox.margin>
+      </Label>
+      <TextField maxWidth="200.0">
+         <VBox.margin>
+            <Insets left="200.0" top="30.0" />
+         </VBox.margin>
+      </TextField>
+      <Button mnemonicParsing="false" text="Commencer la partie">
+         <VBox.margin>
+            <Insets left="230.0" top="40.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+</VBox>
